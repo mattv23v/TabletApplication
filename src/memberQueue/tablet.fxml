@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="853.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="memberQueue.TabletUI">
+   <children>
+      <Button fx:id="submitBtn" layoutX="578.0" layoutY="642.0" mnemonicParsing="false" onAction="#ButtonPressed" prefHeight="62.0" prefWidth="125.0" text="Submit" />
+      <TableView fx:id="table" layoutX="434.0" layoutY="114.0" prefHeight="500.0" prefWidth="412.0">
+      </TableView>
+      <TextField fx:id="firstNameField" layoutX="253.0" layoutY="172.0" />
+      <Label fx:id="upNextText" alignment="CENTER" contentDisplay="CENTER" layoutX="483.0" prefHeight="70.0" prefWidth="314.0" text="Up Next For Service" textAlignment="CENTER" textFill="#1a0dd0" textOverrun="CLIP">
+         <font>
+            <Font size="29.0" />
+         </font></Label>
+      <Label fx:id="MIText" layoutX="185.0" layoutY="223.0" text="Middle Initial" />
+      <TextField fx:id="initialField" layoutX="265.0" layoutY="219.0" prefHeight="25.0" prefWidth="36.0" />
+      <ComboBox fx:id="comboBox" layoutX="179.0" layoutY="263.0" prefWidth="150.0" />
+      <Label fx:id="upNextMember" alignment="CENTER" contentDisplay="CENTER" layoutX="476.0" layoutY="44.0" prefHeight="70.0" prefWidth="329.0" text="                    " textAlignment="CENTER" textFill="#cf0e0e">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="firstNameText" layoutX="185.0" layoutY="176.0" text="First Name" />
+      <VBox layoutX="-36.0" layoutY="704.0" prefHeight="200.0" prefWidth="100.0" />
+      <ImageView fitHeight="77.0" fitWidth="94.0" layoutX="80.0" layoutY="596.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@stars.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="77.0" fitWidth="94.0" layoutX="1022.0" layoutY="565.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@stars.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="77.0" fitWidth="94.0" layoutX="912.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@stars.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="TabletApplication:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TabletApplication_jar</output-path>
+    <root id="archive" name="TabletApplication.jar">
+      <element id="module-output" name="TabletApplication" />
+    </root>
+  </artifact>
+</component>
